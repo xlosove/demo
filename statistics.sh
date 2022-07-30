@@ -19,7 +19,7 @@ recordFile=$(
     pwd
 )/codeStat-$(date "+%Y%m%d-%H%M%S")".csv"
 # 结果文件表头
-echo "统计时间, 统计周期, 统计分支, 提交人, 提交次数, 增加行数, 删除行数, 行数差" >>$recordFile
+echo "统计时间, 统计周期（天）, 统计分支, 提交人, 提交次数, 增加行数, 删除行数, 行数差" >>$recordFile
 
 # 统计时间
 CURRENT_TIME=$(date "+%Y-%m-%d %H:%M:%S")
