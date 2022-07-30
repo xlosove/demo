@@ -3,7 +3,7 @@
 # 项目所有目录
 ITEM_PATH=D:/MyProject/demo
 # 统计结果输出文件
-curRecordFile=D:/MyProject/demo/gitCodeStat-`date "+%Y%m"`".log"
+curRecordFile=D:/MyProject/demo/out/gitCodeStat-`date "+%Y%m"`".log"
 TODAY_DATE=`date "+%Y-%m-%d %H:%M:%S"`
 # 统计周期长度，默认为1天前的
 STAT_DURATION_DAY=1
